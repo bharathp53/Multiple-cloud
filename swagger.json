@@ -1,0 +1,26 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Azure Backend API",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/api/data": {
+      "get": {
+        "summary": "Fetch data",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "example": {
+                  "message": "Hello from Azure Backend!"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
